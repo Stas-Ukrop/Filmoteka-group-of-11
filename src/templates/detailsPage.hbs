@@ -1,0 +1,12 @@
+{{#each this}}
+<li class="movie-card view-card">{{id}}
+  <img class="movie-card__poster" src={{urlPost}} alt="Poster" />
+  <h3 class="movie-card__title">{{title}}</h3>
+  <ul class="movie-card__info">
+    {{#each genger}}
+    <li class="movie-card__genre">{{this}}</li>
+    {{/each}}
+    <li class="movie-card__year">{{date}}</li>
+  </ul>
+</li>
+{{/each}}

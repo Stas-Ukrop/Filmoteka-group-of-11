@@ -11,3 +11,13 @@ html {
 /** {
     outline: 2px solid red;
 }*/
+ul{
+  display: flex;
+  flex-wrap: wrap;
+}
+li{
+  display: inline-block;
+  width: 300px;
+  height:450px;
+
+}
